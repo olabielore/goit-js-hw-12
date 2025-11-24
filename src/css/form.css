@@ -1,0 +1,38 @@
+.form {
+    display: flex;
+    justify-self: center;
+    margin-top: 32px;
+    gap: 8px;
+}
+.form-input {
+    width: 272px;
+    height: 40px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+   
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.form-button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 91px;
+    height: 40px;
+    background: #4e75ff;
+
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.form-button:hover {
+    background: #6c8cff;
+}
